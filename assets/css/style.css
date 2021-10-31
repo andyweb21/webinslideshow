@@ -1,0 +1,229 @@
+.webin-slide {
+    position: relative;
+}
+.home-slideshow .slick-arrow {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    z-index: 100;
+    font-size: 2rem;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 25px;
+}
+.home-slideshow .slick-arrow svg {
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF !important;
+}
+.home-slideshow .slick-arrow.slick-prev {
+    left: 8%;
+}
+.home-slideshow .slick-arrow.slick-next {
+    right: 8%;
+}
+.home-slideshow .slick-dots {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.home-slideshow .slick-dots li {
+    list-style: none;
+}
+.home-slideshow .slick-dots li button {
+    background-color: #BBBBBB;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    text-indent: -999px;
+    margin: 0 4px;
+    overflow: hidden;
+}
+.home-slideshow .slick-dots li.slick-active button {
+    background-color: #FFFFFF;
+}
+
+/* Home Slideshow Content */
+
+.home-slideshow .webin-slide__item {
+    position: relative;
+}
+.home-slideshow .webin-slide__item .webin-slide__item-image img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+.home-slideshow .webin-slide__item .webin-slide__item-content {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 50%;
+    text-align: center;
+    z-index: 100;
+}
+.home-slideshow .webin-slide__item .webin-slide__item-title {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    font-weight: 200;
+    margin: 0;
+}
+.home-slideshow .webin-slide__item .webin-slide__item-title p {
+    margin: 0;
+}
+.home-slideshow .webin-slide__item .webin-slide__item-link a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #27AE61;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+/* Karakter Slideshow Content */
+
+.slide-karakter .webin-slide__item {
+    position: relative;
+}
+.slide-karakter .webin-slide__item .webin-slide__item-image img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.karakter-thumbnail {
+    position: relative;
+    margin-top: 2rem;
+}
+.karakter-thumbnail .slick-dots {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.karakter-thumbnail .slick-dots li {
+    list-style: none;
+    margin-right: 1rem;
+}
+.karakter-thumbnail .slick-dots li button {
+    border-radius: 35px;
+    width: 35px;
+    height: 35px;
+    background-color: var(--color-grey);
+    color: var(--color-white);
+    border: 0;
+}
+.karakter-thumbnail .slick-dots li.slick-active button {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+}
+.karakter-thumbnail .webin-slide__item .webin-slide__item-icon {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+.karakter-thumbnail .webin-slide__item .webin-slide__item-content {
+    width: 45%;
+    color: var(--color-grey-primary);
+    float: right;
+    display: flex;
+    margin-right: 5%;
+}
+.karakter-thumbnail .webin-slide__item .webin-slide__item-content::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.karakter-thumbnail .webin-slide__item .webin-slide__item-title {
+    color: var(--color-primary);
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+}
+.karakter-thumbnail .webin-slide__item .webin-slide__item-text {
+    color: var(--color-grey-primary);
+    font-size: 1rem;
+    font-weight: 200;
+    margin: 0;
+}
+.karakter-thumbnail .webin-slide__item .webin-slide__item-title p {
+    margin: 0;
+}
+.karakter-thumbnail .webin-slide__item .webin-slide__item-link a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 25px;
+    background-color: #27AE61;
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 200;
+}
+/* Kerjasama Pendidikan */
+
+.slide-kerjasama {
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+}
+.slide-kerjasama .webin-slide__item {
+    border: 1px solid #CCCCCC;
+    padding: 30px;
+    text-align: center;
+}
+.slide-kerjasama .webin-slide__item .webin-slide__item-title {
+    height: 60px;
+}
+.slide-kerjasama .webin-slide__item .webin-slide__item-text {
+    height: 150px;
+}
+.slide-kerjasama .webin-slide__item .webin-slide__item-image {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-kerjasama .slick-dots {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.slide-kerjasama .slick-dots li {
+    list-style: none;
+}
+.slide-kerjasama .slick-dots li button {
+    background-color: #BBBBBB;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 0;
+    text-indent: -999px;
+    margin: 0 4px;
+    overflow: hidden;
+}
+.slide-kerjasama .slick-dots li.slick-active button {
+    background-color: #8f8282;
+}
