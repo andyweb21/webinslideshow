@@ -1,0 +1,2 @@
+# webinslideshow
+Plugin wordpress slideshow
